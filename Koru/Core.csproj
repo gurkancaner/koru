@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Basic access control library. User has roles, roles has permissions.</Description>
+    <PackageTags>ACL, ABAC, RBAC, Authorization</PackageTags>
+    <Authors>Gurkan Caner</Authors>
+    <Company>Kodfu</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+
+</Project>
